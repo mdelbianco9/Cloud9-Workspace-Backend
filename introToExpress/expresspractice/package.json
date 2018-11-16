@@ -1,0 +1,14 @@
+{
+  "name": "expresspractice",
+  "version": "1.0.0",
+  "description": "practice using routes in express",
+  "main": "practiceexpress.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marcus delbianco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
