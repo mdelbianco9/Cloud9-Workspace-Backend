@@ -1,0 +1,38 @@
+body{
+    background-color: purple;
+    text-align: center;
+    padding: 20px;
+}
+
+li {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    opacity: .8;
+    text-align: left;
+    border-right: 10px solid green;
+    list-style: none;
+    transition: all .4s ease;
+    margin-bottom: 2px;
+}
+
+li:hover {
+    transform: scale(1.05);
+    transform: translateX(10px);
+}
+
+input {
+    width: 20%;
+    height: 50px;
+    border-radius: 0px;
+    
+}
+
+button {
+    background-color: #fff;
+    padding: 5px;
+    border: 2px solid black;
+}
