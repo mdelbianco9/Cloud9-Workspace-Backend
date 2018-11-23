@@ -1,0 +1,21 @@
+body {
+    background-color: purple;
+    color: white;
+}
+
+li{
+    font-size: 20px;
+    border: 1px solid #fff;
+    margin: 5px;
+    padding: 1%;
+    list-style: none;
+    width: 50%;
+    opacity: .8;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+li:hover {
+    transform: scale(1.05);
+    background-color: lightgrey;
+}
