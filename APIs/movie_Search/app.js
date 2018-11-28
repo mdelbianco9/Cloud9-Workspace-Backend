@@ -1,7 +1,10 @@
 var express = require("express");
 var app = express();
+// Makes it so we can make API requests
 var request = require("request");
+// makes it so we dont have to write .ejs in the render functions
 app.set("view engine", "ejs");
+// Hooks up to app.css
 app.use(express.static("public"));
 
 
