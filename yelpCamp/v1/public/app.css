@@ -26,3 +26,8 @@
     color: #00cdcd;
     transform:  scale(1.05);
 }
+
+
+.form-box{
+    background-image: linear-gradient(#fff, #00cdcd);
+}
