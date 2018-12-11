@@ -1,0 +1,33 @@
+
+
+/* ----- NavBar styling -----*/
+
+
+/* ----- JumboTron Styling -----*/
+.bg-gradient {
+    background-image: linear-gradient(#cd5c6f, #00cdcd);
+}
+
+.text-white{
+    color: white!important;
+}
+
+.btn-1{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight:600;
+    transition: all .4s ease;
+}
+
+.btn-1:hover{
+    background-color: white;
+    opacity: .8;
+    color: #00cdcd;
+    transform:  scale(1.05);
+}
+
+
+.form-box{
+    background-image: linear-gradient(#fff, #00cdcd);
+}
